@@ -10,8 +10,8 @@ spec:
   project: default
   source:
     helm:
-    valueFiles:
-      - values-prod.yaml
+      valueFiles:
+        - values-prod.yaml
     path: helm-manifest
     repoURL: https://github.com/Aminujb/python-helloworld
     targetRevision: HEAD
