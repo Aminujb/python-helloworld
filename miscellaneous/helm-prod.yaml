@@ -1,6 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-metadat:
+metadata:
   name: nginx-application
   namespace: demo
 spec:
