@@ -3,12 +3,10 @@ namespace:
 
 service:
   port: 80
-  type: ClusterIP
 
 image:
   repository: nginx
   tag: 1.17.0
-  pullPolicy: IfNotPresent
 
 replicaCount: 2
 
