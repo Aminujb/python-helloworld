@@ -28,5 +28,6 @@ spec:
         imagePullPolicy: IfNotPresent
         name: nginx-alpine
         resources:
-          cpu: {{ .Values.resources.requests.cpu }}
-          memory: {{ .Values.resources.requests.memory }}
+          requests:
+            cpu: {{ .Values.resources.requests.cpu }}
+            memory: {{ .Values.resources.requests.memory }}
